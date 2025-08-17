@@ -1,0 +1,78 @@
+/* Custom CSS to match the color scheme and fonts from the images */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0b0213;
+    /* A very dark purple/black color */
+    color: #ffffff;
+    margin: 0;
+}
+
+.header-bg {
+    background-color: rgba(11, 2, 19, 0.9);
+}
+
+.text-purple-highlight {
+    color: #9333ea;
+}
+
+.card-bg {
+    background-color: #1a082e;
+    /* Darker purple for the cards */
+}
+
+.tag {
+    background-color: #581c87;
+    color: #e9d5ff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.contact-input {
+    background-color: #2a134a;
+    color: #fff;
+    border: 1px solid #581c87;
+}
+
+/* Header is now fixed to the viewport again */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+/* Style for the active navigation link */
+.nav-link.active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style for the scroll-to-top button */
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #9333ea;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    z-index: 1000;
+}
+
+#back-to-top:hover {
+    background-color: #8e44ad;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}

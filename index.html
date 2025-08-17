@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Mandape - Portfolio</title>
+    <!-- We're using Tailwind CSS for a modern, responsive look, similar to the image. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+    <!-- Header/Navigation Bar -->
+    <header class="fixed-header w-full transition-all duration-300 header-bg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo/Name -->
+            <div class="text-xl md:text-2xl font-bold">
+                Shruti Mandape
+            </div>
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-6 lg:space-x-8">
+                <a href="#home" class="nav-link text-gray-300 hover:text-white transition-colors duration-200">Home</a>
+                <a href="#about" class="nav-link text-gray-300 hover:text-white transition-colors duration-200">About</a>
+                <a href="#experience" class="nav-link text-gray-300 hover:text-white transition-colors duration-200">Experience</a>
+                <a href="#skills" class="nav-link text-gray-300 hover:text-white transition-colors duration-200">Skills</a>
+                <a href="#services" class="nav-link text-gray-300 hover:text-white transition-colors duration-200">Services</a>
+                <a href="#portfolio" class="nav-link text-gray-300 hover:text-white transition-colors duration-200">Projects</a>
+                <a href="#contact" class="nav-link text-gray-300 hover:text-white transition-colors duration-200">Contact</a>
+            </nav>
+            <!-- Get In Touch Button -->
+            <a href="#contact" class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-full transition-colors duration-200">
+                Get In Touch
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Main Hero Section -->
+        <section id="home" class="min-h-screen flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 pt-24">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-4">
+                    Hi, I'm <span class="text-purple-highlight">Shruti</span>
+                </h1>
+                <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-300 mb-6">
+                    Turning Ideas into <span class="text-purple-highlight">Digital Reality</span>
+                </h2>
+                <p class="text-base md:text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
+                    "Turning concepts into smooth, engaging digital experiences."
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <!-- Updated to an anchor tag with the GitHub link -->
+                    <a href="https://github.com/Shruti2707-coder" target="_blank" class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-200">
+                        View My Work
+                    </a>
+                    <a href="#contact" class="bg-transparent border-2 border-purple-700 text-purple-highlight hover:bg-purple-700 hover:text-white font-semibold py-3 px-8 rounded-full transition-colors duration-200">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me and Education Section -->
+        <section id="about" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-2">
+                        About Me
+                    </h2>
+                    <p class="text-lg text-gray-400">
+                        "I'm passionate about technology and innovation, bringing fresh ideas to every challenge."
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- About Me content -->
+                    <div>
+                        <p class="text-gray-300 mb-6">
+                            Hello, my name is <span class="font-semibold text-purple-highlight">Shruti Mandape</span>. I'm a Computer Science undergraduate with strong analytical and problem-solving skills. My journey in technology has been driven by curiosity and a passion for creating solutions that matter.
+                        </p>
+                        <p class="text-gray-300">
+                            With experience spanning web development, data analysis, and software engineering, I've had the opportunity to work on diverse projects that have shaped my technical expertise and collaborative approach to problem-solving.
+                        </p>
+                    </div>
+                    <!-- Education section -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Education</h3>
+                        <div class="space-y-6">
+                            <!-- B.Tech Card -->
+                            <div class="card-bg p-6 rounded-xl shadow-lg flex items-start space-x-4">
+                                <div class="bg-purple-900 p-3 rounded-full flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13.5m0-13.5C2.658 4.778 3.5 1 1.5 1s-1.158 3.778-1.5 5.253v13.5m0-13.5c1.889 0 2.228 1.488 2.228 2.5s-.339 2.5-2.228 2.5m10.5-13.5c-1.889 0-2.228 1.488-2.228 2.5s.339 2.5 2.228 2.5m-10.5 4v-4m1.5-1.5c-1.889 0-2.228 1.488-2.228 2.5s.339 2.5 2.228 2.5m-1.5-6.5v-4m1.5-1.5c-1.889 0-2.228 1.488-2.228 2.5s.339 2.5 2.228 2.5" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-purple-highlight">B.Tech in Computer Science Engineering</h4>
+                                    <p class="text-sm text-gray-400">College of Engineering and Technology</p>
+                                    <p class="text-xs text-gray-500">Akola, Maharashtra</p>
+                                </div>
+                            </div>
+                            <!-- Diploma Card -->
+                            <div class="card-bg p-6 rounded-xl shadow-lg flex items-start space-x-4">
+                                <div class="bg-purple-900 p-3 rounded-full flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13.5m0-13.5C2.658 4.778 3.5 1 1.5 1s-1.158 3.778-1.5 5.253v13.5m0-13.5c1.889 0 2.228 1.488 2.228 2.5s-.339 2.5-2.228 2.5m10.5-13.5c-1.889 0-2.228 1.488-2.228 2.5s.339 2.5 2.228 2.5m-10.5 4v-4m1.5-1.5c-1.889 0-2.228 1.488-2.228 2.5s.339 2.5 2.228 2.5m-1.5-6.5v-4m1.5-1.5c-1.889 0-2.228 1.488-2.228 2.5s.339 2.5 2.228 2.5" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-purple-highlight">Diploma in Computer Engineering</h4>
+                                    <p class="text-sm text-gray-400">Anjuman Polytechnic College</p>
+                                    <p class="text-xs text-gray-500">Nagpur, Maharashtra</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Skills and Core Competencies Section -->
+        <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold text-purple-highlight mb-2">
+                    My Skills
+                </h2>
+                <p class="text-lg text-gray-400 mb-12">
+                    A comprehensive toolkit of technical expertise and soft skills that enable me to tackle complex challenges effectively.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Technical Skills Card -->
+                    <div class="card-bg p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold mb-6">Technical Skills</h3>
+                        <div class="space-y-6 text-left">
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Python (Pandas, NumPy, Matplotlib)</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 90%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">90%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">JavaScript & Web Development</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 85%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">85%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">SQL & MySQL</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 80%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">80%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Power BI & Data Visualization</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 85%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">85%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">C++ Programming</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 75%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">75%</span>
+                            </div>
+                             <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Excel (Pivot Tables & Charts)</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 80%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills Card -->
+                    <div class="card-bg p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold mb-6">Soft Skills</h3>
+                        <div class="space-y-6 text-left">
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Communication</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 90%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">90%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Analytical Thinking</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 95%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">95%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Problem-solving</span>
+                                <div class="w-full h-2 bg-purple-90- rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 90%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">90%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Teamwork</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 85%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">85%</span>
+                            </div>
+                            <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Leadership</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 80%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">80%</span>
+                            </div>
+                             <!-- Skill Item -->
+                            <div class="flex items-center space-x-4">
+                                <span class="text-lg flex-shrink-0">Adaptability</span>
+                                <div class="w-full h-2 bg-purple-900 rounded-full">
+                                    <div class="bg-purple-600 h-2 rounded-full" style="width: 85%;"></div>
+                                </div>
+                                <span class="text-sm font-semibold flex-shrink-0">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core Competencies Section -->
+                <div class="py-20">
+                    <h3 class="text-3xl font-bold mb-8">Core Competencies</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Competency Card -->
+                        <div class="card-bg p-8 rounded-xl shadow-lg flex flex-col items-center">
+                            <!-- Icon placeholder -->
+                            <div class="bg-purple-900 p-4 rounded-full mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                </svg>
+                            </div>
+                            <h4 class="text-xl font-semibold mb-2">Full-Stack Development</h4>
+                            <p class="text-sm text-gray-400">Proficient in both frontend and backend technologies</p>
+                        </div>
+                        <!-- Competency Card -->
+                        <div class="card-bg p-8 rounded-xl shadow-lg flex flex-col items-center">
+                            <!-- Icon placeholder -->
+                            <div class="bg-purple-900 p-4 rounded-full mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M18 10H6" />
+                                </svg>
+                            </div>
+                            <h4 class="text-xl font-semibold mb-2">Data Analysis</h4>
+                            <p class="text-sm text-gray-400">Expert in data visualization and business intelligence</p>
+                        </div>
+                        <!-- Competency Card -->
+                        <div class="card-bg p-8 rounded-xl shadow-lg flex flex-col items-center">
+                            <!-- Icon placeholder -->
+                            <div class="bg-purple-900 p-4 rounded-full mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.314-2.686 6-6 6S0 14.314 0 11s2.686-6 6-6 6 2.686 6 6zm10 0c0 3.314-2.686 6-6 6s-6-2.686-6-6 2.686-6 6-6 6 2.686 6 6zm-10 0l-4-4m-2 4l4 4" />
+                                </svg>
+                            </div>
+                            <h4 class="text-xl font-semibold mb-2">Problem Solving</h4>
+                            <p class="text-sm text-gray-400">Strategic thinking and innovative solution development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (formerly Portfolio) -->
+        <section id="portfolio" class="py-20 px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-purple-highlight mb-2">
+                My Projects
+            </h2>
+            <p class="text-lg text-gray-400 mb-12">
+                A showcase of innovative projects that demonstrate my technical expertise and problem-solving capabilities across various domains.
+            </p>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project Card 1: Astro Personality Interface -->
+                <div class="card-bg p-6 rounded-xl shadow-lg transition-transform hover:scale-105 duration-300">
+                    <div class="w-full h-48 rounded-lg mb-4 flex items-center justify-center">
+                        <img src="https://storage.googleapis.com/g.dev/img-generation/6e41785f-8d96-412d-94c3-1d07b469ed1e.png" alt="Astro Personality Interface" class="rounded-lg">
+                    </div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <span class="tag">Web Development</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-left mb-2">Astro Personality Interface</h3>
+                    <p class="text-gray-400 text-sm text-left mb-4">A comprehensive astrology website featuring 5+ interactive features with modern UI/UX design. Built to serve 200+ weekly users with personalized astrological insights.</p>
+                    <div class="flex flex-wrap gap-2 text-left text-sm text-gray-500 mb-4">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="flex items-center justify-between text-gray-400 mb-4">
+                        <div class="flex items-center space-x-2">
+                            <span>200+</span>
+                            <span>Users</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span>5+</span>
+                            <span>Features</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span>4.8/5</span>
+                            <span>Rating</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Shruti2707-coder" target="_blank" class="w-full bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 rounded-full transition-colors duration-200 block text-center">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Project Card 2: AI Voice Assistant -->
+                <div class="card-bg p-6 rounded-xl shadow-lg transition-transform hover:scale-105 duration-300">
+                    <div class="w-full h-48 rounded-lg mb-4 flex items-center justify-center">
+                        <img src="https://storage.googleapis.com/g.dev/img-generation/5c00f135-c54d-444f-a492-2b6348128549.png" alt="AI Voice Assistant" class="rounded-lg">
+                    </div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <span class="tag">Software Development</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-left mb-2">AI Voice Assistant for Desktop</h3>
+                    <p class="text-gray-400 text-sm text-left mb-4">An intelligent desktop voice assistant with advanced voice recognition capabilities and automation features for enhanced productivity.</p>
+                    <div class="flex flex-wrap gap-2 text-left text-sm text-gray-500 mb-4">
+                        <span>Python</span>
+                        <span>Voice Recognition</span>
+                        <span>AI/ML</span>
+                        <span>Desktop App</span>
+                    </div>
+                    <div class="flex items-center justify-between text-gray-400 mb-4">
+                        <div class="flex items-center space-x-2">
+                            <span>95%</span>
+                            <span>Accuracy</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span><2s</span>
+                            <span>Response</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span>50+</span>
+                            <span>Commands</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Shruti2707-coder" target="_blank" class="w-full bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 rounded-full transition-colors duration-200 block text-center">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Project Card 3: PWC Switzerland Power BI Job Simulation -->
+                <div class="card-bg p-6 rounded-xl shadow-lg transition-transform hover:scale-105 duration-300">
+                    <div class="w-full h-48 rounded-lg mb-4 flex items-center justify-center">
+                        <img src="https://storage.googleapis.com/g.dev/img-generation/6b53a060-f1c5-4d7a-b9c2-5c02931e5088.png" alt="PWC Simulation" class="rounded-lg">
+                    </div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <span class="tag">Data Analysis</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-left mb-2">PWC Switzerland Power BI Job Simulation</h3>
+                    <p class="text-gray-400 text-sm text-left mb-4">Comprehensive data visualization project focusing on HR insights, KPI analysis, and business intelligence dashboard creation for strategic decision-making.</p>
+                    <div class="flex flex-wrap gap-2 text-left text-sm text-gray-500 mb-4">
+                        <span>Power BI</span>
+                        <span>Data Analysis</span>
+                        <span>Excel</span>
+                        <span>Business Intelligence</span>
+                    </div>
+                    <div class="flex items-center justify-between text-gray-400 mb-4">
+                        <div class="flex items-center space-x-2">
+                            <span>10+</span>
+                            <span>Dashboards</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span>25+</span>
+                            <span>Kpis</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span>15+</span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Shruti2707-coder" target="_blank" class="w-full bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 rounded-full transition-colors duration-200 block text-center">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-purple-highlight mb-2">
+                My Services
+            </h2>
+            <p class="text-lg text-gray-400 mb-12">
+                Comprehensive technology solutions tailored to meet your specific needs and drive your business forward.
+            </p>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Web Development Card -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transition-transform hover:scale-105 duration-300">
+                    <div class="flex flex-col items-center">
+                        <!-- Icon placeholder -->
+                        <div class="bg-purple-900 p-4 rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-2">Web Development</h3>
+                        <p class="text-gray-400 text-sm mb-4">Creating responsive, dynamic websites using modern technologies like HTML, CSS, JavaScript, and various frameworks.</p>
+                        <ul class="text-left text-gray-400 text-sm list-disc list-inside space-y-1 mb-6">
+                            <li>Responsive Design</li>
+                            <li>Dynamic Functionality</li>
+                            <li>Modern UI/UX</li>
+                            <li>Cross-browser Compatibility</li>
+                        </ul>
+                        <button class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-full transition-colors duration-200">
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Data Analysis & Visualization Card -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transition-transform hover:scale-105 duration-300">
+                    <div class="flex flex-col items-center">
+                        <!-- Icon placeholder -->
+                        <div class="bg-purple-900 p-4 rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M18 10H6" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-2">Data Analysis & Visualization</h3>
+                        <p class="text-gray-400 text-sm mb-4">Transforming raw data into actionable insights through comprehensive analysis and compelling visualizations.</p>
+                        <ul class="text-left text-gray-400 text-sm list-disc list-inside space-y-1 mb-6">
+                            <li>Power BI Dashboards</li>
+                            <li>Excel Analytics</li>
+                            <li>Statistical Analysis</li>
+                            <li>KPI Monitoring</li>
+                        </ul>
+                        <button class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-full transition-colors duration-200">
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Problem-solving & Backend Development Card -->
+                <div class="card-bg p-8 rounded-xl shadow-lg transition-transform hover:scale-105 duration-300">
+                    <div class="flex flex-col items-center">
+                        <!-- Icon placeholder -->
+                        <div class="bg-purple-900 p-4 rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.314-2.686 6-6 6S0 14.314 0 11s2.686-6 6-6 6 2.686 6 6zm10 0c0 3.314-2.686 6-6 6s-6-2.686-6-6 2.686-6 6-6 6 2.686 6 6zm-10 0l-4-4m-2 4l4 4" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-2">Problem-solving & Backend Development</h3>
+                        <p class="text-gray-400 text-sm mb-4">Developing robust backend solutions and tackling complex technical challenges with innovative approaches.</p>
+                        <ul class="text-left text-gray-400 text-sm list-disc list-inside space-y-1 mb-6">
+                            <li>Algorithm Design</li>
+                            <li>Database Management</li>
+                            <li>API Development</li>
+                            <li>System Optimization</li>
+                        </ul>
+                        <button class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-full transition-colors duration-200">
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold text-purple-highlight mb-2">
+                    Get In Touch
+                </h2>
+                <p class="text-lg text-gray-400 mb-12">
+                    Ready to start your next project? Let's discuss how we can work together to bring your ideas to life.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
+                    <!-- Let's Connect Column -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Let's Connect</h3>
+                        <p class="text-gray-300 mb-6">
+                            I'm always excited to discuss new opportunities, collaborations, or just have a chat about technology and innovation. Feel free to reach out through any of the channels below.
+                        </p>
+                        <div class="space-y-4">
+                            <!-- Email -->
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-purple-900 p-3 rounded-full flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 12h8a2 2 0 002-2V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold">Email</h4>
+                                    <a href="mailto:shrutimandape07@gmail.com" class="text-purple-highlight hover:underline">shrutimandape07@gmail.com</a>
+                                </div>
+                            </div>
+                            <!-- Phone -->
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-purple-900 p-3 rounded-full flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.293 1.147a1 1 0 00-.55.908v.75a2 2 0 002 2h3.28a1 1 0 01.948-.684l1.498-4.493a1 1 0 011.21-.502l-1.147-2.293a1 1 0 00.908-.55v-.75a2 2 0 00-2-2h-3.28a1 1 0 01-.948.684l-1.498 4.493a1 1 0 01-1.21-.502l-1.147-2.293a1 1 0 00-.908-.55z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold">Phone</h4>
+                                    <p class="text-gray-300">+91 9307679405</p>
+                                </div>
+                            </div>
+                            <!-- LinkedIn -->
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-purple-900 p-3 rounded-full flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.766s.784-1.767 1.75-1.767 1.75.79 1.75 1.767c0 .976-.784 1.766-1.75 1.766zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold">LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/shruti-mandape/" target="_blank" class="text-purple-highlight hover:underline">linkedin.com/in/shruti-mandape/</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Send a Message Form -->
+                    <div class="card-bg p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold mb-6">Send a Message</h3>
+                        <!-- Form with onsubmit event to handle email action -->
+                        <form onsubmit="sendEmail(event)" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-400 mb-1">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" class="contact-input w-full p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-700">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-400 mb-1">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" class="contact-input w-full p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-700">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-400 mb-1">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or just say hello..." class="contact-input w-full p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-700"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-purple-700 hover:bg-purple-600 text-white font-semibold py-3 rounded-full transition-colors duration-200">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Contact Section (from the new image) -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold mb-2">Ready to start your next project?</h2>
+                <p class="text-lg text-gray-400 mb-12">I'm here to help turn your vision into reality.</p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="https://www.linkedin.com/in/shruti-mandape/" target="_blank" class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-200">
+                        Connect on LinkedIn
+                    </a>
+                    <a href="mailto:shrutimandape07@gmail.com" class="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-200">
+                        Email Me Directly
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-purple-700 text-white p-4 rounded-full shadow-lg transition-all duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="text-center py-8 text-gray-500">
+        <div class="container mx-auto">
+            <div class="mb-4">
+                <div class="text-2xl font-bold text-white">Shruti Mandape</div>
+                <p class="text-sm text-gray-400">Turning Ideas into Digital Reality</p>
+            </div>
+           
+            <div class="flex justify-center space-x-4 mb-4">
+                <!-- Updated Email link -->
+                <a href="mailto:shrutimandape07@gmail.com" class="bg-purple-900 p-2 rounded-full hover:bg-purple-700 transition-colors duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 12h8a2 2 0 002-2V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                </a>
+                <!-- Updated LinkedIn link -->
+                <a href="https://www.linkedin.com/in/shruti-mandape/" target="_blank" class="bg-purple-900 p-2 rounded-full hover:bg-purple-700 transition-colors duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.766s.784-1.767 1.75-1.767 1.75.79 1.75 1.767c0 .976-.784 1.766-1.75 1.766zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </a>
+                <a href="#" class="bg-purple-900 p-2 rounded-full hover:bg-purple-700 transition-colors duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-400" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 24c6.627 0 12-5.373 12-12s-5.373-12-12-12-12 5.373-12 12 5.373 12 12 12zM8.502 6.502c.732 0 1.324-.592 1.324-1.324s-.592-1.324-1.324-1.324c-.733 0-1.324.592-1.324 1.324s.592 1.324 1.324 1.324zm-2.002 4.498h4c.552 0 1 .448 1 1v7c0 .552-.448 1-1 1h-4c-.552 0-1-.448-1-1v-7c0-.552.448-1 1-1zm6 0h4c.552 0 1 .448 1 1v7c0 .552-.448 1-1 1h-4c-.552 0-1-.448-1-1v-7c0-.552.448-1 1-1zm6 0h4c.552 0 1 .448 1 1v7c0 .552-.448 1-1 1h-4c-.552 0-1-.448-1-1v-7c0-.552.448-1 1-1z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <p class="text-xs text-gray-500 mt-4">&copy; 2025 Shruti Mandape. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-purple-700 text-white p-4 rounded-full shadow-lg transition-all duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
+</body>
+</html>
